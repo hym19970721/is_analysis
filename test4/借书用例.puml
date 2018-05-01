@@ -1,0 +1,39 @@
+@startuml
+
+actor 图书管理员
+participant "读者" as A
+participant "图书藏品" as B
+participant "借书记录" as C
+
+activate 图书管理员
+
+图书管理员 -> A: 验证读者身份
+activate A
+deactivate A
+
+图书管理员 -> A:获取读者信息
+activate A
+deactivate A
+
+图书管理员 -> B: 获取藏品信息
+activate B
+deactivate B
+
+图书管理员 -> C: 创建借书记录
+activate C
+deactivate C
+
+图书管理员 -> A:读者借书量增加
+activate A
+deactivate A
+
+图书管理员 -> B :藏品数量减少
+activate B
+deactivate B
+
+图书管理员 -> C:打印借书记录单
+activate C
+deactivate C
+
+
+@enduml

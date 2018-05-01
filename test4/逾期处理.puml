@@ -1,0 +1,26 @@
+@startuml
+
+actor 图书管理员 as A
+participant "借书记录" as B
+participant "读者" as C
+participant "黑名单" as D
+
+
+A -> B:验证借书记录是否逾期
+activate B
+deactivate B
+
+
+A-> C :联系读者催促其还书或者进行续借
+activate C
+deactivate C
+
+A-> B:为读者图书添加续借
+activate B
+deactivate B
+
+A-> D :将消极应对的读者加入黑名单
+activate D
+deactivate D
+
+@enduml
