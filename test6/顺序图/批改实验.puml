@@ -1,0 +1,14 @@
+@startuml
+
+actor 教师 as A
+participant "实验" as B
+participant "系统" as C
+
+activate A
+
+A -> B: 批改实验成绩
+deactivate A
+
+B->C :下发实验成绩和实验评价
+
+@enduml

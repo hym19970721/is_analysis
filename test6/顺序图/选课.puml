@@ -1,0 +1,21 @@
+@startuml
+
+actor 教师 as A
+participant "系统" as C
+participant "课程" as D
+actor 学生 as B
+
+A->C: 登陆系统
+
+
+C->D:选择课程
+activate D
+deactivate D
+
+B-> C:登陆系统
+
+C->D:选择课程
+activate D
+deactivate D
+
+@enduml

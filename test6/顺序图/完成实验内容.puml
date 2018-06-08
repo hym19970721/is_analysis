@@ -1,0 +1,23 @@
+@startuml
+
+actor 学生 as A
+participant "系统" as B
+participant "实验" as C
+
+
+A -> B: 根据用户名和密码登录系统
+
+B->C :查询实验内容和安排
+activate C
+
+C->A :获取实验内容
+deactivate C
+activate A
+
+A->C :完成实验内容
+deactivate A
+activate C
+
+C->B:上传实验结果
+deactivate C
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+
+
+Object 实验类{
+实验序号：1
+实验名称：jEE中hibernate环境搭建
+实验内容：在jEE中搭建hibernate运行环境，并且按照要求完成相应代码。
+实验成绩:78
+实验评价:对于hibernate的理解不够到位，还需要加强理解，代码完成较差，希望下次改进。
+}
+
+
+@enduml

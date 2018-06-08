@@ -1,0 +1,18 @@
+@startuml
+left to right direction
+
+
+actor 教师 as B
+actor 学生 as C
+actor 教务处  as A
+
+rectangle  {
+A -->(审核实验安排)
+B -->(课程选择)
+B -->(安排实验)
+B -->(批改实验)
+(完成实验内容)<--C
+(课程选择)<-- C
+(查询实验成绩)<--C
+}
+@enduml
