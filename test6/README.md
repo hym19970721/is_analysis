@@ -35,8 +35,8 @@
 
 ## 6. 用例及界面详细设计
 - ### [“修改密码”用例](./用例/修改密码.md),[界面](https://hym19970721.github.io/is_analysis/test6/界面图/修改密码.html)
-- ### [“选课”用例](./用例/选课.md),[界面]https://hym19970721.github.io/is_analysis/test6/界面图/选课(学生).html)
-- ### [“查询实验成绩”用例](./用例/查询实验成绩.md),[界面]https://hym19970721.github.io/is_analysis/test6/界面图/查询实验成绩.html)
+- ### [“选课”用例](./用例/选课.md),[界面](https://hym19970721.github.io/is_analysis/test6/界面图/选课(学生).html)
+- ### [“查询实验成绩”用例](./用例/查询实验成绩.md),[界面](https://hym19970721.github.io/is_analysis/test6/界面图/查询实验成绩.html)
 - ### [“修改用户信息”用例](./用例/修改用户信息.md),[界面](https://hym19970721.github.io/is_analysis/test6/界面图/信息界面.html)
 - ### [“安排实验”用例](./用例/安排实验.md),[界面](https://hym19970721.github.io/is_analysis/test6/界面图/安排实验.html)
 - ### [“完成实验内容”用例](./用例/完成实验内容.md),[界面](https://hym19970721.github.io/is_analysis/test6/界面图/完成实验内容.html)
